@@ -39,6 +39,3 @@ jobs:
         git config --local user.name "GitHub Action"
         git add .
         git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update notebook and run script" -a && git push)
-```
-
-Would you like me to explain or break down this code?
